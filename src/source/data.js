@@ -1,6 +1,9 @@
 import hombre from "../assets/avatars/hombre.jpg";
 import cat from "../assets/avatars/ricmonds.jpg";
 import woman from "../assets/avatars/woman.jpg";
+import demo from "../assets/avatars/demo.jpg";
+import demo1 from "../assets/avatars/demo1.jpg";
+import demo2 from "../assets/avatars/demo2.jpg";
 
 const avatarInfo = [
   {
@@ -34,7 +37,7 @@ const avatarInfo = [
     name: "Rich",
     surname: "Ricmonds",
     description: "Breakfast is most important thing in morrning",
-    url: "../src/assets/avatars/hombre.jpg",
+    url: demo,
   },
   {
     id: "5",
@@ -42,7 +45,7 @@ const avatarInfo = [
     name: "Janis",
     surname: "Jazeps",
     description: "Live doesnt suprise as",
-    url: "../src/assets/avatars/hombre.jpg",
+    url: demo1,
   },
   {
     id: "5",
@@ -50,7 +53,7 @@ const avatarInfo = [
     name: "Bonefācijs",
     surname: "Strautnieks",
     description: "Sīks zuļiks",
-    url: "../src/assets/avatars/hombre.jpg",
+    url: demo2,
   },
 ];
 
