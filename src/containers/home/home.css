@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+            --hero-main-text-color: #fff;
+            --hero-font-family: "Indie Flower", cursive;
+}
+
+.home-background {
+            height: 100vh;
+            width: auto;
+            background-color: #8EC5FC;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/picnic-hero.jpg") no-repeat center center fixed;
+            background-size: cover;
+}
+
+.position-center {
+            position: absolute;
+            inset: 290px 0 20px 150px;
+            color: var(--hero-main-text-color);
+}
+
+.intro-title-center {
+            font-family: var(--hero-font-family);
+            font-size: 70px;
+}
+
+.intro-paragraph-align {
+            font-family: var(--hero-font-family);
+            font-size: 19px;
+            padding: 20px 0;
+}
+
+.hero-btn {
+            position: relative;
+            inset: 40px 0 0 650px;
+            font-family: var(--hero-font-family);
+            font-size: 24px;
+            font-weight: bold;
+            padding: 5px 35px;
+            border-radius: 7px;
+            background-color: #C2BDB8;
+            color: var(--hero-main-text-color);
+            text-decoration: none;
+            cursor: pointer;
+}
+
+.hero-btn:hover {
+            background-color: #e7ded5;
+            color: #333333;
+}
